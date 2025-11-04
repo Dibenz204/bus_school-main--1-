@@ -17,7 +17,6 @@
 //     ],
 //   },
 // });
-
 import path from "path";
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
@@ -33,8 +32,6 @@ export default defineConfig({
   },
   server: {
     port: 5173, // 👈 Thêm dòng này để cố định port
-    allowedHosts: [
-      "gaiterless-ranae-unsensual.ngrok-free.dev",
-    ],
+    allowedHosts: ["gaiterless-ranae-unsensual.ngrok-free.dev"],
   },
 });
